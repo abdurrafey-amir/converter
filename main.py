@@ -152,3 +152,41 @@ def tip():
 # area()
 # time()
 # tip()
+
+# cli
+def cli():
+	print("Welcome to the converter!")
+	print("Please select an option:")
+	print("1. Weight")
+	print("2. Temperature")
+	print("3. Length")
+	print("4. Speed")
+	print("5. Data")
+	print("6. Volume")
+	print("7. Area")
+	print("8. Time")
+	print("9. Tip")
+	option = input("Enter your choice (1-9): ")
+
+	if option == "1":
+		weight()
+	elif option == "2":
+		temp()
+	elif option == "3":
+		length()
+	elif option == "4":
+		speed()
+	elif option == "5":
+		data()
+	elif option == "6":
+		volume()
+	elif option == "7":
+		area()
+	elif option == "8":
+		time()
+	elif option == "9":
+		tip()
+	else:
+		print("Invalid option")
+
+cli()
